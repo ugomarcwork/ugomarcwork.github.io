@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Martin, politique de confidentialité</title>
+<style>
+  :root { --bleu: #1C8FD6; --encre: #16243A; --fond: #F6F9FC; }
+  body { margin: 0; font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; color: var(--encre); background: var(--fond); }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 20px; }
+  h1 { font-size: 30px; margin: 0 0 8px; }
+  h2 { font-size: 20px; margin-top: 30px; }
+  a { color: var(--bleu); }
+  footer { margin-top: 48px; font-size: 14px; color: #5b6b80; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Politique de confidentialité de Martin</h1>
+  <p>Dernière mise à jour : 25 octobre 2026.</p>
+
+  <h2>Qui utilise Martin</h2>
+  <p>Martin est une application macOS personnelle, utilisée uniquement par son auteur sur ses propres comptes.
+     Elle n'est pas distribuée au public.</p>
+
+  <h2>Données Google utilisées</h2>
+  <ul>
+    <li><strong>Gmail, lecture seule</strong> (<code>gmail.readonly</code>) : expéditeur, destinataires, date, sujet et texte des messages des 30 derniers jours,
+        pour savoir quels mails attendent une réponse. Les pièces jointes ne sont pas lues (seuls leur nom et leur type sont notés),
+        à l'exception des invitations d'agenda (fichiers .ics), dont seuls le titre, la date et le statut sont lus.</li>
+    <li><strong>Gmail, envoi</strong> (<code>gmail.send</code>) : uniquement pour envoyer une réponse quand l'utilisateur appuie lui-même sur « Envoyer ».</li>
+  </ul>
+
+  <h2>Où vont les données</h2>
+  <ul>
+    <li>Les informations des mails sont stockées sur les Mac de l'utilisateur et dans son propre iCloud Drive (dossier « Martin »), pour synchroniser ses deux Mac.</li>
+    <li>Pour résumer un fil et préparer un brouillon, le texte des messages concernés est envoyé à Claude (Anthropic), via l'abonnement Claude de l'utilisateur.
+        Claude n'a aucun accès direct à Gmail et ne peut rien envoyer.</li>
+    <li>Les autorisations Google (jetons) sont gardées sur le Mac de l'utilisateur, dans un fichier protégé, jamais dans iCloud.</li>
+    <li>Aucune donnée n'est vendue, partagée avec des annonceurs, ni utilisée pour de la publicité ou pour entraîner des modèles.</li>
+  </ul>
+
+  <h2>Respect des règles Google</h2>
+  <p>L'utilisation par Martin des informations reçues des API Google respecte les
+     <a href="https://developers.google.com/terms/api-services-user-data-policy">règles relatives aux données utilisateur des services d'API Google</a>,
+     y compris les exigences d'utilisation limitée (« Limited Use »).</p>
+
+  <h2>Supprimer les données</h2>
+  <p>L'utilisateur peut à tout moment retirer l'accès de Martin depuis
+     <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>, et supprimer le dossier « Martin » de son iCloud Drive
+     et de ses Mac.</p>
+
+  <footer>Pour toute question, ouvrez une issue sur ce dépôt GitHub. · <a href="index.html">Accueil</a></footer>
+</main>
+</body>
+</html>
